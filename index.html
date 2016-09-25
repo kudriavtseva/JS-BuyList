@@ -2,12 +2,89 @@
 <html>
 <head lang="uk">
     <meta charset="UTF-8">
-    <title>My Page</title>
+    <title>Buy-List</title>
 
 
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
-<h1>Hello World</h1>
+<div class="main-container">
+    <div class="left-container">
+        <div class="input-add-container">
+                <input type="text" class="product-input" placeholder="Назва товару">
+                <button class="add-button">Додати</button>
+            </div>
+        <hr>
+        <div class="products-and-operations">
+            <div class="product-title">Помідори</div>
+            <div class="plus-minus-operations">
+                <button class="minus-button">-</button>
+                <div class="count">1</div>
+                <button class="plus-button">+</button>
+            </div>
+            <div class="product-state-butoons">
+                <button class="bought-button">Куплено</button>
+                <button class="delete-button">x</button>
+            </div>
+        </div>
+        <hr>
+        <div class="products-and-operations">
+            <div class="product-title">Печиво</div>
+            <div class="plus-minus-operations">
+                <button class="minus-button">-</button>
+                <div class="count">1</div>
+                <button class="plus-button">+</button>
+            </div>
+            <div class="product-state-butoons">
+                <button class="bought-button">Куплено</button>
+                <button class="delete-button">x</button>
+            </div>
+        </div>
+        <hr>
+        <div class="products-and-operations">
+            <div class="product-title">Сир</div>
+            <div class="plus-minus-operations">
+                <button class="minus-button">-</button>
+                <div class="count">1</div>
+                <button class="plus-button">+</button>
+            </div>
+            <div class="product-state-butoons">
+                <button class="bought-button">Куплено</button>
+                <button class="delete-button">x</button>
+            </div>
+        </div>
+    </div>
+    <div class="right-container">
+        <div class="rest-products-container">
+            <h3>Залишилося</h3>
+        </div>
+        <hr>
+        <div class="rest-products-container-items">
+            <div class="rest-products">
+                <div class="rest-product-titles">
+                    <div class="rest-product-title">Помідори</div>
+                    <div class="rest-products-count">1</div>
+                </div>
+                <div class="rest-product-titles">
+                    <div class="rest-product-title">Печиво</div>
+                    <div class="rest-products-count">1</div>
+                </div>
+                <div class="rest-product-titles">
+                    <div class="rest-product-title">Сир</div>
+                    <div class="rest-products-count">1</div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="rest-products-container">
+            <h3>Куплено</h3>
+        </div>
+        <hr>
+        <div class="rest-products-container">
+            <div class="bought-product"></div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
