@@ -8,49 +8,49 @@
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
-<div class="main-container">
+<div class="bl-background">
     <div class="left-container">
         <div class="input-add-container">
-                <input type="text" class="product-input" placeholder="Назва товару">
-                <button class="add-button">Додати</button>
+                <div class="product-input"><input type="text"  placeholder="Назва товару"></div>
+                <button class="add-button" tooltip="Add new product">Додати</button>
             </div>
         <hr>
         <div class="products-and-operations">
             <div class="product-title">Помідори</div>
             <div class="plus-minus-operations">
-                <button class="minus-button">-</button>
+                <button class="minus-button" tooltip="Delete 1 item">-</button>
                 <div class="count">1</div>
-                <button class="plus-button">+</button>
+                <button class="plus-button" tooltip="Add 1 item">+</button>
             </div>
             <div class="product-state-butoons">
-                <button class="bought-button">Куплено</button>
-                <button class="delete-button">x</button>
+                <button class="bought-button" tooltip="Buy this product">Куплено</button>
+                <button class="delete-button" tooltip="Delete this product">x</button>
             </div>
         </div>
         <hr>
         <div class="products-and-operations">
             <div class="product-title">Печиво</div>
             <div class="plus-minus-operations">
-                <button class="minus-button">-</button>
+                <button class="minus-button" tooltip="Delete 1 item">-</button>
                 <div class="count">1</div>
-                <button class="plus-button">+</button>
+                <button class="plus-button" tooltip="Add 1 item">+</button>
             </div>
             <div class="product-state-butoons">
-                <button class="bought-button">Куплено</button>
-                <button class="delete-button">x</button>
+                <button class="bought-button" tooltip="Buy this product">Куплено</button>
+                <button class="delete-button" tooltip="Delete this product">x</button>
             </div>
         </div>
         <hr>
         <div class="products-and-operations">
             <div class="product-title">Сир</div>
             <div class="plus-minus-operations">
-                <button class="minus-button">-</button>
+                <button class="minus-button" tooltip="Delete 1 item">-</button>
                 <div class="count">1</div>
-                <button class="plus-button">+</button>
+                <button class="plus-button" tooltip="Add 1 item">+</button>
             </div>
             <div class="product-state-butoons">
-                <button class="bought-button">Куплено</button>
-                <button class="delete-button">x</button>
+                <button class="bought-button" tooltip="Buy this product">Куплено</button>
+                <button class="delete-button" tooltip="Delete this product">x</button>
             </div>
         </div>
     </div>
@@ -84,7 +84,12 @@
             <div class="bought-product"></div>
         </div>
     </div>
+    <div class="badge">
+        <div class="badge-title">Buy List</div>
+        <div class="badge-body">Created by: <br> Julia Kudriavtseva</div>
+    </div>
 </div>
+
 
 </body>
 </html>
